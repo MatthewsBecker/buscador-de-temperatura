@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    padding: 0em;
+    margin: 0em;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: url(https://img.elo7.com.br/product/zoom/35F4F77/papel-de-parede-mapa-mundi-vintage-caroline-de-sa-marques-papel-de-parede-mapa-mundi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    background-color:#011627;
+    color: #fdfffc;
+    padding-left:5px;
+    font-size:18px;
+    border: none;
+    height:40px;
+    width:425px;
+    text-align: center;
+}
+
+input:focus{
+    background-color:#072945;
+}
+
+button{
+    border:none;
+    float:right;
+    height:40px;
+    border-radius:0 9px 9px 0;
+    width:90px;
+    font-weight:bold;
+    background:#2ec4b6;
+    color: #FFFFFF;
+}
+
+button:hover{
+    background:#208379;
+}
+
+.resultado{
+    width:500px;
+    height: 9em;
+    background-color:#011627;
+    border:solid 2px #5F9EA0;
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fdfffc;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.6em;
+    border-radius: 10px;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+    .resultado{
+        width:400px;
+        height: 9em;
+        background-color:#011627;
+        border:solid 2px #5F9EA0;
+        margin-top: 1.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fdfffc;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2em;
+        border-radius: 10px;
+    }
+
+    .input{
+        background-color:#011627;
+        color: #fdfffc;
+        padding-left:5px;
+        font-size:18px;
+        border: none;
+        height:40px;
+        width:325px;
+        text-align: center;
+    }
+    
+}
