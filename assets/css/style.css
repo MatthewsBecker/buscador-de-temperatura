@@ -74,7 +74,7 @@ button:hover{
 
 @media (max-width: 575.98px) {
     .resultado{
-        width:400px;
+        width:350px;
         height: 9em;
         background-color:#011627;
         border:solid 2px #5F9EA0;
@@ -96,8 +96,11 @@ button:hover{
         font-size:18px;
         border: none;
         height:40px;
-        width:325px;
+        width:300px;
         text-align: center;
     }
-    
+
+    button{
+        width:70px;
+    }
 }
